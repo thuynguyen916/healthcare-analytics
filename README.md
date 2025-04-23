@@ -61,5 +61,10 @@ Open the file `scripts/healthcare_analysis.R` and run the sections step by step.
 - Final write-up: `docs/analysis output.docx`
 - All analysis code: `scripts/healthcare_analysis.R`
 
+---
 
+**Author:** Thuy Nguyen  
+**Term:** Winter 2025  
+**Project Type:** Individual school project (DePaul University)  
+**Tools:** Microsoft SQL Server (SSMS), Azure Data Studio  
   
