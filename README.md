@@ -64,7 +64,7 @@ Open the file `scripts/healthcare_analysis.R` and run the sections step by step.
 ---
 
 **Author:** Thuy Nguyen  
-**Term:** Winter 2025  
+**Term:** Fall 2024  
 **Project Type:** Individual school project (DePaul University)  
-**Tools:** Microsoft SQL Server (SSMS), Azure Data Studio  
+**Tools:** R  
   
