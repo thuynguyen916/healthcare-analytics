@@ -2,12 +2,10 @@
 
 ## 📌 Overview
 
-This project uses real-world data to analyze healthcare costs and financial risk using R. I worked with two datasets to:
+This project uses real-world data to analyze healthcare costs and financial risks using R. I worked with two datasets to:
 
 - Predict medical charges based on age, smoking, BMI, and more
-- Understand the risk of loan default among patients, which could impact healthcare access or affordability
-
-Both parts are connected through the lens of healthcare analytics.
+- Understand the risk of loan default among people from different backgrounds.
 
 ## 📁 Project Structure
 
@@ -20,7 +18,7 @@ healthcare-analytics/
 │   └── description/
 │       └── loan_default_dataset_description.docx
 ├── docs/
-│   └── analysis output.docx
+│   └── healthcare-loan-analysis.pdf
 ├── scripts/
 │   └── healthcare_analysis.R
 ├── healthcare_analysis.Rproj
@@ -51,14 +49,21 @@ Open the file `scripts/healthcare_analysis.R` and run the sections step by step.
 
 ## ✅ What I Did
 
-- Built multiple linear regression models to estimate healthcare costs
-- Used log transformation to improve prediction accuracy
-- Modeled loan default using logistic regression, decision trees, and random forest
-- Exported the results and interpretations to a Word document
+- Built multiple linear regression models to estimate healthcare costs using age, smoking status, BMI, and parental status
+
+- Applied log transformation and alternative predictors (e.g., log(age)) to improve model interpretability and predictive accuracy
+
+- Estimated and compared healthcare cost predictions under different scenarios (e.g., BMI of 19 vs. 27, age progression)
+
+- Modeled loan default risk using multiple approaches: linear regression, logistic regression, and classification models (decision trees, random forest)
+
+- Evaluated model performance with metrics like accuracy and used variable selection to reduce multicollinearity
+
+- Exported model results and interpretations to a PDF report
 
 ## 📄 Outputs
 
-- Final write-up: `docs/analysis output.docx`
+- Final write-up: `docs/healthcare-loan-analysis.pdf`
 - All analysis code: `scripts/healthcare_analysis.R`
 
 ---
